@@ -36,3 +36,5 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/qazimustafa/nodeapicrud.git
    cd nodeapicrud
+   npm i
+   node index.js
