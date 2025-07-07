@@ -1,0 +1,42 @@
+{
+  "name": "nodeapicrud",
+  "version": "1.0.0",
+  "description": "A simple Node.js API with CRUD operations using Express and MongoDB for understanding basic API development.",
+  "keywords": [
+    "node",
+    "api",
+    "crud",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nodeapicrud.git"
+  },
+  "license": "ISC",
+  "author": "Qazi Mustafa <your-email@example.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nodeapicrud/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodeapicrud#readme"
+}
